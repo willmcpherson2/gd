@@ -1,5 +1,3 @@
-# godot 4.1
-
 extends CharacterBody2D
 
 const SPEED: float = 10000
