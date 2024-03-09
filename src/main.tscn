@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwgct1uft5nbv"]
+
+[ext_resource type="Texture2D" uid="uid://b3fr8akvt17c1" path="res://assets/player.png" id="1_6tulp"]
+
+[node name="main" type="Node"]
+
+[node name="player" type="Node2D" parent="."]
+
+[node name="sprite" type="Sprite2D" parent="player"]
+position = Vector2(553, 310)
+texture = ExtResource("1_6tulp")
