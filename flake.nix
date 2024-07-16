@@ -30,7 +30,7 @@
           if [ ! -d "$TEMPLATES_DIR" ]; then
             mkdir -p "$TEMPLATES_DIR"
             unzip -q "${godotTemplates}" -d "$TEMPLATES_DIR"
-            mv "$TEMPLATES_DIR/templates" "$TEMPLATES_DIR/4.2.2.stable"
+            mv "$TEMPLATES_DIR/templates" "$TEMPLATES_DIR/${godotVersion}.stable"
           fi
 
           mkdir -p export
